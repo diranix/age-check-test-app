@@ -1,9 +1,12 @@
+using System;
+
+
 Console.WriteLine("\nHello!\n");
 
 while(true) //run while it's true
 {
     Console.WriteLine("Enter your age:");
-    string AgeInput = Console.ReadLine (); //age check
+    string AgeInput = Console.ReadLine(); //age check
 
         try //try to run a program 
         { 
